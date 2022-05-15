@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+
+<body>
+    
+<div class="container">
+	<div class="calc-container">
+
+		<h1>A Simple Calculator</h1>
+
+		<input id="box" value="" type="text" readonly placeholder="0"><br/>
+
+		<div class="btn-container">
+		<div class="row">
+				<button class="btn" onclick="shownum('1')"><strong>1</strong></button>
+				<button class="btn" onclick="shownum('2')"><strong>2</strong></button>
+				<button class="btn" onclick="shownum('3')"><strong>3</strong></button>
+				<button class="btn cbtn" onclick="delback()"><strong>⟸</strong></button>
+    </div>
+    <div class="row">
+      <button class="btn" onclick="shownum('4')"><strong>4</strong></button>
+      <button class="btn" onclick="shownum('5')"><strong>5</strong></button>
+      <button class="btn" onclick="shownum('6')"><strong>6</strong></button>
+      <button class="btn" onclick="shownum('+')"><strong>+</strong></button>
+  </div>
+  <div class="row">
+      <button class="btn" onclick="shownum('7')"><strong>7</strong></button>
+      <button class="btn" onclick="shownum('8')"><strong>8</strong></button>
+      <button class="btn" onclick="shownum('9')"><strong>9</strong></button>
+      <button class="btn" onclick="shownum('-')"><strong>-</strong></button>
+		</div>
+		<div class="row">
+				<button class="btn" onclick="shownum('.')"><strong>.</strong></button>
+				<button class="btn" onclick="shownum('0')"><strong>0</strong></button>
+				<button class="btn" onclick="shownum('00')"><strong>00</strong></button>
+				<button class="btn" onclick="shownum('*')"><strong>*</strong></button>
+				</div>
+        <div class="row">
+          <button class="btn cbtn" onclick="clearme()"><strong>C</strong></button>
+          <button class="btn solvebtn" onclick="solve()"><strong>=</strong></button>
+          <button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+      </div>	
+      <div class="row">
+				<button class="btn cbtn" onclick="clearme()"><strong>C</strong></button>
+				<button class="btn solvebtn" onclick="solve()"><strong>=</strong></button>
+				<button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+		</div>	
+  </div>
+</div>
+</div>
+
+
+
+</body>
+
+
+<script>
+function addition(a, b){
+    return a + b;
+}
+
+
+</script>
+</html>
